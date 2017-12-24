@@ -234,12 +234,12 @@ public:
 	{
 		switch (key)
 		{
-		case Oryol::Key::N1:
-		case Oryol::Key::N2:
-		case Oryol::Key::N3:
-		case Oryol::Key::N4:
-		case Oryol::Key::N5:
-			Create(key - Oryol::Key::N1);
+		case Oryol::Key::Num1:
+		case Oryol::Key::Num2:
+		case Oryol::Key::Num3:
+		case Oryol::Key::Num4:
+		case Oryol::Key::Num5:
+			Create(key - Oryol::Key::Num1);
 			break;
 
 		case Oryol::Key::A:
