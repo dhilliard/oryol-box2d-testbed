@@ -1,0 +1,6 @@
+fips_begin_app(Testbed windowed)
+	oryol_shader(Framework/shaders.glsl GROUP Framework)
+	fips_src(Framework GROUP Framework)
+	fips_src(Tests GROUP Tests)
+    fips_deps(Gfx Box2D IMUI)
+fips_end_app()
